@@ -114,41 +114,49 @@ a{
 }
 #about{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    padding: 2% 22%;
+    /* align-items: center;
+    justify-content: center; */
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+   
+
     
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
-  
+    align-content: center;
+    flex-direction: row-reverse;
     
-
+  
+}
+.about-page{
+    display: flex;
 }
  .gal1{
     width: 800px;
     margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 4%;
     display: flex;
+    
+    
 }
-
-.gal,img{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.container2{
+    width: 800px;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
-/* .boxes, .box{
-    background-color: teal;
-} */
-.box1{
-    background-color: teal;
+.
+.gal2{
+    dsipaly:flex;
 }
-
-
-
-
-
 
 
 button{
@@ -161,6 +169,7 @@ button{
 }
 
 .text2{
+    
     margin-left: 20rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -168,12 +177,13 @@ button{
 
 }
 
- /* .text{
-    display: flex;
+ .text{
+    /* display: flex; */
     align-items: center;
     margin-top: 2rem;
-    margin-bottom: 4rem;
-} */
+    
+
+}
 
 /* #gal1, .container{ 
     display: flex;
@@ -252,7 +262,7 @@ button{
     align-items: center;
     justify-content: center;
 } 
-.middle-content .boxes .box3 {
+.middle-content .boxes .box5 {
     width: 12.5%;
     height: 100px;
     background: crimson;
@@ -262,6 +272,57 @@ button{
     align-items: center;
     justify-content: center;
 } 
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
 
 
 
