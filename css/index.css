@@ -54,7 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 
@@ -97,6 +97,7 @@ a{
 .jumboimg{
     display: flex;
     justify-content: center;
+    width: auto;
 }
 
 .links {
@@ -111,16 +112,75 @@ a{
    
     
 }
+#about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    
+}
 
 .container {
     width: 800px;
     margin: 0 auto;
+  
     
+
 }
-#gal1{
+ .gal1{
+    width: 800px;
+    margin: 0 auto;
     display: flex;
-    
 }
+
+.gal,img{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* .boxes, .box{
+    background-color: teal;
+} */
+.box1{
+    background-color: teal;
+}
+
+
+
+
+
+
+
+button{
+    color:black;
+    background-color: white;
+    padding: 2% 4%;
+    border-radius: 25%;
+    margin-top: 1rem;
+    border: 2px solid black
+}
+
+.text2{
+    margin-left: 20rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+
+}
+
+ /* .text{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+} */
+
+/* #gal1, .container{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+} */
 
 .top-content {
     display: flex;
@@ -152,21 +212,64 @@ a{
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+ .middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    
 }
 
 .bottom-content .text-container {
@@ -205,5 +308,5 @@ footer nav a {
        justify-content: center;
 } */
 
-.logo, .links
+
 
